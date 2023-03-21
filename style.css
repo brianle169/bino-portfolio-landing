@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -84,4 +84,19 @@ a:visited {
     width: 70%;
     text-align: center;
     font-style: italic;
+}
+
+.footer {
+    /* Appearance */
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-weight: 600;
+
+    /*Display & Alignments*/
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-basis: 80px;
+    justify-content: center;
+    align-items: center;
 }
