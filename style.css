@@ -2,6 +2,7 @@
     border: 1px solid red;
 }
 
+/*Layout Setup*/
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -10,12 +11,16 @@ body {
     justify-content: space-between;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .personal-information,
-.projects,
-.contact-form {
+.projects {
     flex: 1;
 }
 
+/*Header Styling*/
 .header-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
@@ -24,7 +29,6 @@ body {
 .navigation-links {
     display: flex;
     padding-left: 0;
-    list-style-type: none;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
@@ -86,6 +90,7 @@ a:visited {
     font-style: italic;
 }
 
+/*Footer Styling*/
 .footer {
     /* Appearance */
     background-color: #1F2937;
@@ -99,4 +104,14 @@ a:visited {
     flex-basis: 80px;
     justify-content: center;
     align-items: center;
+}
+
+/*Personal Information Styling*/
+.personal-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-information-body {
+    display: flex;
 }
