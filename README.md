@@ -1,2 +1,1 @@
-# practice-landing-page
-A landing page project from TOP
+# A sample landing page for my portfolio
